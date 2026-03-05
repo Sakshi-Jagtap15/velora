@@ -41,6 +41,9 @@ const InvitePage = () => {
         .eq('slug', slug)
         .maybeSingle();
 
+      console.log("Slug:", slug);
+      console.log("Supabase data:", data);
+      console.log("Supabase error:", error);
       if (error || !data) {
         setNotFound(true);
       } else {
