@@ -93,13 +93,14 @@ const WeddingSection: React.FC = () => {
         </ScrollReveal>
 
         <ScrollReveal delay={200}>
-          <h1 className="font-script text-6xl md:text-8xl text-primary mb-1">{invitation.groom_name}</h1>
+          <h1 className="font-script text-6xl md:text-8xl mb-1 gold-shimmer">{invitation.groom_name}</h1>
+
           <div className="flex items-center justify-center gap-4 my-3">
             <div className="w-16 h-px bg-wedding-gold/40" />
             <p className="font-display text-2xl text-wedding-gold">&</p>
             <div className="w-16 h-px bg-wedding-gold/40" />
           </div>
-          <h1 className="font-script text-6xl md:text-8xl text-primary mb-6">{invitation.bride_name}</h1>
+          <h1 className="font-script text-6xl md:text-8xl mb-6 gold-shimmer">{invitation.bride_name}</h1>
         </ScrollReveal>
 
         <ScrollReveal delay={400}>
