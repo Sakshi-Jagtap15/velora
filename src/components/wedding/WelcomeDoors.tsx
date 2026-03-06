@@ -49,9 +49,9 @@ const WelcomeDoors: React.FC<WelcomeDoorsProps> = ({ onOpen, isOpen }) => {
             <p className="font-body text-sm tracking-[0.2em] uppercase text-muted-foreground mb-1">
               the wedding celebration of
             </p>
-            <h2 className="font-script text-4xl md:text-5xl text-primary mt-1">{invitation.groom_name}</h2>
+            <h2 className="font-script text-4xl md:text-5xl mt-1 gold-shimmer">{invitation.groom_name}</h2>
             <p className="font-display text-lg text-wedding-gold my-0.5">&</p>
-            <h2 className="font-script text-4xl md:text-5xl text-primary mb-3">{invitation.bride_name}</h2>
+            <h2 className="font-script text-4xl md:text-5xl mb-3 gold-shimmer">{invitation.bride_name}</h2>
             <div className="w-12 h-px bg-wedding-gold/50 mx-auto my-2" />
             <p className="font-display text-sm text-muted-foreground">
               Scroll down to explore
@@ -98,7 +98,7 @@ const WelcomeDoors: React.FC<WelcomeDoorsProps> = ({ onOpen, isOpen }) => {
             }`}
             style={{ 
               top: '42%',
-              background: 'radial-gradient(circle at 35% 35%, hsl(0, 55%, 42%), hsl(0, 55%, 30%))',
+              background: 'radial-gradient(circle at 50% 50%, hsl(0, 55%, 42%), hsl(0, 55%, 30%))',
               boxShadow: '0 4px 15px hsla(0, 55%, 25%, 0.5), inset 0 1px 2px hsla(0, 40%, 60%, 0.3)',
               border: '2px solid hsl(0, 45%, 25%)',
             }}
